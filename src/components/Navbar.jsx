@@ -1,29 +1,36 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
+import SZYBKIEFURY from "../assets/SZYBKIEFURY.png"
 
 function App() {
     return (
-        <>
-            <ul>
-                <li className="image">
-                    <a href="home.jsx"><img className={"logo"} src={"/src/assets/SZYBKIEFURY.png"}/></a>
-                </li>
-                <li className="nav">
-                    <a href="login.jsx">Login</a>
-                </li>
-                <li className="nav">
-                    <a href="kontakt.jsx">Kontakt</a>
-                </li>
-                <li className="nav">
-                    <a href="opinie.jsx">Opinie</a>
-                </li>
-                <li className="nav">
-                    <a href="info.jsx">Info</a>
-                </li>
-                <li className="loginButton">
-                    <a href="home.jsx">Home</a>
-                </li>
-            </ul>
-        </>
+        <nav>
+            <div>
+                <div className="image">
+                    <img
+                        className={"logo"}
+                        src={SZYBKIEFURY}
+                    />
+                </div>
+            </div>
+            <div className="nawigacja">
+                <div>
+                    <Link to="/">Home</Link>
+                </div>
+                <div>
+                    <Link to="/info">Info</Link>
+                </div>
+                <div>
+                    <Link to="/opinie">Opinie</Link>
+                </div>
+                <div>
+                    <Link to="/contact">Kontakt</Link>
+                </div>
+                <div>
+                    <Link to="/login">Login</Link>
+                </div>
+            </div>
+        </nav>
     );
 }
 
