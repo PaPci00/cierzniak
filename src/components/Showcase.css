@@ -1,0 +1,38 @@
+.calosc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #101010;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.lewoduze {
+    width: 66%;
+}
+
+.prawoduze {
+    width: 34%;
+}
+
+.auto {
+    background-color: #60CCDF;
+    margin: 25px;
+    min-height: 560px;
+    background-size: cover;
+    border-radius: 10%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.model {
+    top: 30%;
+}
+
+.opis {
+    background-color: #141414;
+    margin: 25px;
+    min-height: 560px;
+    border-radius: 10%;
+}
