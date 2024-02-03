@@ -1,0 +1,50 @@
+input {
+    all: unset;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.loginbg {
+    margin-top: var(--navbar-height);
+    height: calc(100vh - var(--navbar-height));
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.inputs input {
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputsWithButton{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.inputsWithButton button{
+    background-color: #60CCDF;
+    padding: 10px 0;
+    border-radius: 5px;
+}

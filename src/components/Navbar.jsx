@@ -1,8 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import SZYBKIEFURY from "../assets/SZYBKIEFURY.png"
+import {useEffect} from "react";
 
 function App() {
+    const xd = useLocation();
+    useEffect(() => {
+        console.log(xd);
+    }, [xd])
+    
     return (
         <nav>
             <div>
@@ -15,7 +21,7 @@ function App() {
             </div>
             <div className="nawigacja">
                 <div>
-                    <Link to="/">Home</Link>
+                    <Link to="/" >Home</Link>
                 </div>
                 <div>
                     <Link to="/info">Info</Link>
