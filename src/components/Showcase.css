@@ -1,4 +1,9 @@
-.calosc {
+.calosc{
+    height: 100vh;
+}
+
+.wiekszacalosc {
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -8,31 +13,67 @@
 }
 
 .lewoduze {
-    width: 66%;
+    width: 60%;
+    margin-left: 50px;
 }
 
 .prawoduze {
-    width: 34%;
+    width: 40%;
+    margin-right: 50px;
 }
 
 .auto {
     background-color: #60CCDF;
-    margin: 25px;
-    min-height: 560px;
-    background-size: cover;
-    border-radius: 10%;
+    border-radius: 100px;
     text-align: center;
     font-size: x-large;
     font-weight: bold;
-}
-
-.model {
-    top: 30%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 0;
 }
 
 .opis {
-    background-color: #141414;
+    background-color: #101010;
     margin: 25px;
-    min-height: 560px;
-    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+
+.nazwa {
+    font-size: xx-large;
+}
+
+.staty {
+    text-align: center;
+    color: white;
+}
+
+.splitter{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.nazmiane {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.lewybutton {
+    margin-right: 250px;
+}
+
+.prawybutton {
+    margin-left: 250px;
+}
+
+.wrapper{
+    display: flex;
 }
