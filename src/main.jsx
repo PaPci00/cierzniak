@@ -7,13 +7,11 @@ import Info from "./pages/Info";
 import Opinions from "./pages/Opinions";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
-import Navbar from "./components/Navbar";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-              
                 <Route path="/" element={<Home />} />
                 <Route path="info" element={<Info />} />
                 <Route path="opinie" element={<Opinions />} />

@@ -1,0 +1,69 @@
+.onas {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.ja {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wszystko {
+    margin-top: var(--navbar-height);
+    height: calc(100vh - var(--navbar-height));
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.malyopis {
+    font-size: 25px;
+    margin: 50px;
+}
+
+.duzyopis {
+    text-decoration: underline;
+    font-size: 80px;
+    margin: 50px;
+    color: #60ccdf;
+}
+
+.maleklocki {
+    display: flex;
+    flex-direction: row;
+    background-color: #101010;
+}
+
+.kloc {
+    height: 460px;
+    width: 460px;
+    background-color: #60ccdf;
+    margin: 50px;
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kloc img {
+    height: 150px;
+}
+
+.kloc h1 {
+    text-align: center;
+}
+
+
+.imgwrapper{
+    display: flex;
+    justify-content: center;
+}

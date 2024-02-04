@@ -66,6 +66,28 @@ const cars = [
             },
         ],
     },
+    {
+        name: "Toyota Auris 2008",
+        image: "aurisaaaa.png",
+        lines: [
+            {
+                title: "Flagowy 1.4 D-4D",
+                content:
+                    "Dopracowany przez inżynierów Toyoty do perfekcji silnik 1.4 D-4D zapewnia niebywały komfort podróży, bezawaryjność oraz skrywa moc aż 90 koni mechanicznych.",
+            },
+            {
+                title: "Niesamowite doświadczenie muzyczne",
+                content:
+                    "Zaprojektowane z myślą o największych zapaleńcach muzyki sparowane z transmiterem firmy NAVITEL głośniki o mocy 25W odkrywają nowe sposoby doświadczania muzyki.",
+            },
+            {
+                title: "Bezpieczeństwo, moc, wygoda",
+                content:
+                    "ABS, LTE, ESP, BMW, DSTC, AMG, SWM oraz 2115 to pakiet systemów ochrony za który Toyota otrzymała 5 gwiazdek od organizacji NCAP stawiając ją na pozycji lidera jeśli chodzi o bezpieczeństwo.",
+            },
+        ],
+    },
+    
 ];
 
 const Showcase = () => {

@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import "./Login.css";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer"
 
 const correctCreds = {
     admin: "admin",
@@ -15,9 +16,8 @@ const Login = () => {
     const navigation = useNavigate();
 
     useEffect(() => {
-      if(localStorage.getItem("user")) navigation("/dashboard");
+        if (localStorage.getItem("user")) navigation("/dashboard");
     }, []);
-
 
     return (
         <>
@@ -53,6 +53,7 @@ const Login = () => {
                     </div>
                 </form>
             </div>
+            <Footer />
         </>
     );
 };

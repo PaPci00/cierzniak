@@ -14,7 +14,7 @@ const Footer = () => {
             <Link to="/contact">Kontakt</Link>
         </div>
         <div className='copyrighty'>
-            <div>Copytight: papcio</div>
+            <div>Copyright: papcio</div>
         </div>
         <div className='polityka'>
             <div>Polityka prywatności</div>
