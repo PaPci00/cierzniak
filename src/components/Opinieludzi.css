@@ -1,0 +1,49 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: var(--navbar-height);
+    min-height: calc(100vh - var(--navbar-height));
+    background-color: #101010;
+}
+
+.ocena {
+    display: flex;
+    background-color: #60ccdf;
+    width: 50%;
+    color: black;
+    margin: 100px;
+}
+
+.profilowe {
+    display: flex;
+}
+
+.opisane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+
+.nazwaprof {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    gap: 5px;
+}
+
+.komentarz {
+    text-align: center;
+}
+
+
+.car{
+    font-style: italic;
+    color: rgb(0, 0, 0, 0.7);
+}

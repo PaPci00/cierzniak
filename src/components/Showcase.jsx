@@ -83,7 +83,7 @@ const cars = [
             {
                 title: "Bezpieczeństwo, moc, wygoda",
                 content:
-                    "ABS, LTE, ESP, BMW, DSTC, AMG, SWM oraz 2115 to pakiet systemów ochrony za który Toyota otrzymała 5 gwiazdek od organizacji NCAP stawiając ją na pozycji lidera jeśli chodzi o bezpieczeństwo.",
+                    "ABS, LTE, ESP, BMW, DSTC, AMG, SWM oraz 2115 to pakiet systemów ochrony za który Toyota otrzymała 5 gwiazdek od organizacji Euro NCAP stawiając ją na pozycji lidera jeśli chodzi o bezpieczeństwo.",
             },
         ],
     },

@@ -7,6 +7,7 @@ import Info from "./pages/Info";
 import Opinions from "./pages/Opinions";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
@@ -15,8 +16,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 <Route path="/" element={<Home />} />
                 <Route path="info" element={<Info />} />
                 <Route path="opinie" element={<Opinions />} />
-                <Route path="kontakt" element={<Contact />} />
+                <Route path="contact" element={<Contact />} />
                 <Route path="login" element={<Login />} />
+                <Route path="dashboard" element={<Dashboard />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>

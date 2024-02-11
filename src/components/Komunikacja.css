@@ -1,0 +1,28 @@
+.kontakty {
+    margin-top: var(--navbar-height);
+    min-height: calc(100vh - var(--navbar-height));
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.klocuch {
+    height: 460px;
+    width: 460px;
+    background-color: #60ccdf;
+    margin: 50px;
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gora {
+    font-size: xx-large;
+}
+
+.dol {
+    font-size: large;
+}
