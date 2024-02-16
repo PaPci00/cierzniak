@@ -6,7 +6,7 @@ const Dashboard = () => {
   return (
     <>
         <Navbar/>
-          
+          witaj na dashboardzie
         <Footer />
     </>
   )
