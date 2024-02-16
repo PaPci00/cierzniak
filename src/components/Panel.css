@@ -1,0 +1,12 @@
+.witaj {
+    margin-top: var(--navbar-height);
+    min-height: calc(100vh - var(--navbar-height));
+    background-color: #101010;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
